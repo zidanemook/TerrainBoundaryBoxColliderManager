@@ -26,7 +26,7 @@ public class TerrainBoundaryBoxColliderManager : EditorWindow
     private float triggerWidth = 100f;
     private List<string> acceptedTags = new List<string>();
     
-    [MenuItem("Window/TerrainConnector")] 
+    [MenuItem("Window/TerrainBoundaryBoxColliderManager")] 
     
     public static void ShowWindow()
        {
