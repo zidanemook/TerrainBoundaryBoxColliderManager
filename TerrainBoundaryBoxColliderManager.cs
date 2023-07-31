@@ -8,18 +8,6 @@ using PixelCrushers.SceneStreamer;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
-public class Node
-{
-    public Terrain terrain;
-    public List<Node> neighbors;
-
-    public Node(Terrain terrain)
-    {
-        this.terrain = terrain;
-        neighbors = new List<Node>();
-    }
-}
-
 public class TerrainBoundaryBoxColliderManager : EditorWindow
 { 
     private float terrainSize = 1000f; 
